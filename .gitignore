@@ -130,11 +130,14 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.chatbot
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+chatbot/
+chatbot.bak/
 
 # Spyder project settings
 .spyderproject
@@ -169,3 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+vectordatabase
